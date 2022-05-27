@@ -76,10 +76,12 @@ function getOrderDetails(data, callback){
     });
 }
 
+
+
 module.exports = {
     listOrderDetails,
     findOrderByUser,
     addOrder,
     editOrder, 
-    getOrderDetails
+    getOrderDetails,
 };
